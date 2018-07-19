@@ -1,0 +1,428 @@
+/* Edited with EditCSS */
+/**** LINK-tag style sheet style.css ****/
+
+* {margin: 0; padding: 0; border: 0;}
+
+body {background: url(images/ibu_bg.jpg) repeat-x;
+	background-color: #646464;
+	font: 10pt "Verdana", "Arial", "Helvetica", sans-serif;
+	color: #000000;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+	
+
+p {padding: 4px; padding-top:5px;
+padding-bottom: 15px;}
+
+#container {
+background: url(images/ibu_bg2.jpg) repeat-y;
+width: 780px; 
+margin-left: auto; 
+margin-right:auto;
+color: #000
+}
+
+/*** Header ***/
+
+#header {
+height: 300px; 
+background: url(images/ibu_header.jpg) no-repeat;
+}
+
+#header h1 {
+/*** thanks to http://moronicbajebus.com/wordpress/wp-content/cssplay/image-replacement/ for image replacement code ***/
+/*The image*/ 
+background-image: url(images/ibu_banner.jpg);
+    -moz-box-shadow:0px 0px 10px #333;
+	-webkit-box-shadow:0px 0px 10px #333;
+	box-shadow:0px 0px 10px #333;
+background-repeat: no-repeat; 
+/*Hide the text*/ 
+height: 0;
+overflow: hidden;
+/*Size of the image*/ 
+padding-top: 148px; 
+width: 744px;
+/*Position image*/
+position: relative;
+top: 100px;
+left: 17px;
+}
+
+#header h2 {
+background-color: #6AA63B;
+color: #FFFFFF;
+padding-top: 3px;
+padding-bottom: 5px;
+padding-right: 5px;
+width: 739px;
+position: relative;
+top: 100px;
+left: 17px;
+text-align: right;
+font-size: 15px;
+    -moz-box-shadow:0px 0px 10px #333;
+	-webkit-box-shadow:0px 0px 10px #333;
+	box-shadow:0px 0px 10px #333;
+}
+
+#navigation_field
+{
+background-color:transparent;
+height:50px;
+margin-top:100px;
+margin-bottom:150px;
+position:absolute;
+}
+
+#navigation
+{
+margin-left: 18px;
+float:top;
+}
+
+
+#navigation ul{  
+    margin:0;  
+    padding:0;  
+    
+}  
+  
+#navigation li{  
+    width:93px;  
+    height:50px;  
+    float:left;  
+    color:#191919;  
+    text-align:center;  
+    overflow:hidden;  
+    -moz-box-shadow:0px 0px 10px #333;
+	-webkit-box-shadow:0px 0px 10px #333;
+	box-shadow:0px 0px 10px #333;
+}  
+  
+#navigation a{  
+    color:#FFF;  
+    text-decoration:none;  
+}  
+  
+#navigation p{  
+    padding:18px 5px;  
+}  
+  
+    .subtext{  
+        margin-top:-5px;  
+    }  
+    
+/*Menu Color Classes*/  
+.green{background:#6AA63B url('images/green-item-bg.jpg') top left no-repeat;}  
+.yellow{background:#FBC700;}  
+.red{background:#D52100;}  
+.purple{background:#5122B4;}  
+.blue{background:#0292C0;}  
+
+/*** Sidebar ***/
+#sidecontainer {
+width: 201px;
+float: left; 
+margin-top: 22px;
+padding-left: 14px;
+margin-left: 3px;
+margin-right: 2px;}
+
+#sidecontainer ul
+{
+margin-left: 0px; padding-left: 30px}
+
+#sidecontainer ul li {
+  list-style: none;
+  background-color: transparent;
+  text-align: left;
+  margin: 0;
+} 
+
+#sidecontainer h3 {
+font-size:10pt;
+border-bottom: 1px solid; 
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 5px;
+color: #13AF06;
+}
+
+.why_ibu {
+width: 197px;
+padding-right: 2px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+color: #17d608;
+margin-left: auto; 
+margin-right:auto;
+font:9pt "Verdana", "Arial", "Helvetica", sans-serif;
+}
+
+.why_ibu p {
+text-align: right;
+padding: 0px;}
+
+.why_ibu em {
+text-align: left;
+font: 13pt "Verdana", "Arial", "Helvetica", sans-serif;
+font-weight: bold;}
+
+.why_ibu_contents {
+background: url(images/ibu_why_bg.jpg) repeat-y;
+padding: 5px;
+}
+
+.why_ibu_top {
+padding-top: 5px;
+background: url(images/ibu_why_top.jpg) no-repeat;
+}
+
+.why_ibu_footer {
+height: 5px;
+margin: 0px;
+margin-bottom: 0px;
+background: url(images/ibu_why_footer.jpg) no-repeat;
+padding-bottom: 5px;
+}
+
+#eventsbox h1{
+font-size:13pt;
+padding-bottom: 5px;}
+
+#eventsbox h2{
+font-size:10pt;
+font-style: italic;
+font-weight: normal;}
+
+#eventsbox a:link, #eventsbox a:visited {
+color: #FFFFFF
+}
+
+#eventsbox a:hover, #eventsbox a:active {
+color: #dc3d05
+}
+
+#slider {
+	//See the "style-pack" for image
+	background:url(images/slideshow/loading.gif) no-repeat 50% 50%; 
+}
+#slider img {
+	display:none;
+}
+
+/* Calendar */
+#cal {
+	font-family: Helvetica;
+	background: white;
+	text-align: center;
+    -webkit-box-shadow: 0px 5px 8px #333;
+	-moz-box-shadow:0px 5px 8px #333;
+	box-shadow:0px 5px 8px #333;
+	background: url(images/calendar/bg1.jpg) no-repeat;
+    background-size: 160% 100%;
+    padding-bottom: 5px;
+}
+#cal h1 {
+    margin-top: 10px;
+	padding-top: 10px;
+	font-size: 15px;
+	color: #444;
+}
+#cal table {
+	border-collapse: separate;
+	border-width: 0px 0px 1px 1px;
+	margin: 10px auto;
+	font-size: 12px;
+}
+#cal td, th {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+    padding: 2px;
+	vertical-align: middle;
+	background-color: transparent;
+	color: #222;
+	position: relative;
+}
+#cal th {
+	height: 20px;
+    width: 20px;
+	font-weight: bold;
+	font-size: 12px;
+    padding: 2px;
+}
+#cal td:hover, th:hover {
+	background-position: 0px -81px;
+	color: #444;
+}
+#cal td.date_has_event {
+	background-position: 162px 0px;
+	color: red;
+}
+#cal td.date_has_event:hover {
+	background-position: 162px -81px;
+    background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+#cal td.padding {
+	background-color: transparent;
+}
+#cal td.today {
+	background-position: 81px 0px;
+	color: red;
+}
+#cal td.today:hover {
+	background-position: 81px -81px;
+	color: white;
+}
+#cal  .events {
+	position: relative;
+}
+
+#cal .events ul {
+	text-align: left;
+	position: absolute;
+	display: none;
+	z-index: 1000;
+	padding: 15px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	border: 1px solid white;
+	font-size: 15px;
+	width: 170px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-border-radius: 3px;
+	list-style-type: none;
+    padding-left: 20px;
+	color: #444444;
+	-webkit-box-shadow: 0px 8px 8px #333;
+}
+#cal .events li {
+	padding-bottom: 5px;
+    
+}
+#cal .events li span {
+	display: block;
+	font-size: 12px;
+	text-align: justify;
+	color: #bbb;
+}
+#cal .events li span.title {
+	font-weight: bold;
+	color: #fff;
+}
+
+		
+#legend {
+font: 9pt "Verdana", "Arial", "Helvetica", sans-serif;
+color: #000000;
+text-align: center;
+}
+
+
+/*** Content ***/
+
+#content {
+margin-top:25px;
+width: 525px; 
+float: left; 
+padding-bottom:10px; 
+padding-right: 20px;
+padding-left: 15px;
+line-height: 1.5em;
+color: #000000;
+}
+
+#content h2 {
+	margin-bottom:0px;
+	margin-top: 3px;
+	padding-left: 15px;
+	font-size: 15pt;
+	line-height: 1.7em;
+	font-weight: bold;
+	color: #EF0101;
+	background: url(images/ibu_hrbg.jpg) no-repeat left center;}
+
+#content h3 {
+	font-size: 12pt;
+	color: #EF0101;
+	margin-bottom: 10px;
+	text-decoration: underline;
+
+}
+
+.search {
+padding: 5px;
+border: solid #000 1px;
+margin: 10px;
+}
+
+h4 {
+	font-size: 10pt;
+	color: #EF0101;
+	margin-bottom: 7px;
+	font-style: italic;
+}
+
+A:link
+{ text-decoration: none; color:#EF0101; cursor:pointer;text-decoration: underline;}
+A:visited
+{ text-decoration: none;color:#EF0101; cursor:default;text-decoration: underline;}
+A:hover
+{cursor:pointer; color:#ff5400;}
+A:active
+{color:#ff5400;}
+
+ul, ol {padding-left: 50px}
+
+img.logo {
+padding-left: 10px;
+}
+
+img.photo {
+padding: 5px;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 3px;
+margin-bottom: 3px;
+    -moz-box-shadow:0px 0px 10px #333;
+	-webkit-box-shadow:0px 0px 10px #333;
+	box-shadow:0px 0px 10px #333;
+}
+
+table.textbooks {
+}
+
+table.textbooks td {
+padding: 5px;
+border: solid #000 1px;
+line-height: 1em;
+}
+
+input, select {
+border: solid #000 1px;
+}
+
+select.textbook_search {
+width: 100px;
+}
+
+.textareaA {
+border: solid #000 1px;
+
+}
+/*** Footer **/
+
+#footer {background: url(images/ibu_footer.jpg) no-repeat; 
+height: 31px;
+clear: both;
+}
+
+#footer_text {text-align: center;}
+
+
